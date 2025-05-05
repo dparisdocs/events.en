@@ -33,17 +33,17 @@ Adobe is migrating Marketo Engage to the Admin Console to consolidate all produc
 
 ### Migration Types
 
-* **Auto Migration** For organizations with fewer than 75 users and no SSL setup. Adobe handles the migration.
-* **Self Migration** For organizations with SSL setup. Admins manage the migration process using the Migration Console.
+* **Auto Migration** For organizations with fewer than 75 users and no SSO setup. Adobe handles the migration.
+* **Self Migration** For organizations with SSO setup. Admins manage the migration process using the Migration Console.
 
 ### Prerequisites for Migration
 
 * System admins must complete the consent email.
-* SSL must be set up in the Admin Console (not the Marketo instance).
+* SSO must be set up in the Admin Console (not the Marketo instance).
 
 ### Post-Migration Changes
 
-* Users will log in using Adobe ID or federated ID (SSL).
+* Users will log in using Adobe ID or federated ID (SSO).
 * Admin roles and permissions will determine access levels in the Admin Console.
 
 ### Best Practices
